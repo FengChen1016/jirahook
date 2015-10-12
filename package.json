@@ -1,0 +1,11 @@
+{
+  "name": "WhitelistValidator",
+  "version": "0.0.1",
+  "description": "validate whitelist JIRA ticket",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    
+  }
+}
