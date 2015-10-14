@@ -1,6 +1,7 @@
 module.exports = {
+	jira_host: 'myhackday.atlassian.net',
+	rest_api_path: '/rest/api/2/',
     credential: {
-    	username: 'fengchen1016@hotmail.com',
-    	passwd: 'passw0rd'
+    	authorization: 'Basic YWRtaW46cGFzc3cwcmQ='
     }
 };
