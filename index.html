@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+
+		<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+				id="sap-ui-bootstrap"
+				data-sap-ui-libs="sap.ui.core,sap.ui.commons,sap.ui.table"
+				data-sap-ui-theme="sap_bluecrystal">
+		</script>
+
+		<script>
+			sap.ui.localResources("view"); // load folder ./view as local resources
+			// viewName also include folder structure: view/
+			var view = sap.ui.view({id:"viewid", viewName:"view.whitelist", type:sap.ui.core.mvc.ViewType.JS});
+			view.placeAt("content");
+		</script>
+	</head>
+
+	<body class="sapUiBody" role="application">
+		<div id="content" style="padding-top: 30px"></div>
+		<div id="logodiv" style="background-color: white;margin-top: 40px;text-align: center;">
+			<img src="view/jira.png" style="margin-right: 15px"/>
+			<img src="view/nodejs.png" style="margin-right: 15px"/>
+			<img src="view/ui5.png" style="margin-right: 15px"/>
+			<img src="view/heroku.png"/>
+		</div>
+	</body>
+	
+</html>
